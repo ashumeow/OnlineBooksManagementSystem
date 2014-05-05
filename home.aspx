@@ -4,12 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Library Management!</title>
+    <title></title>
 </head>
-<body>
-    <form id="form1" runat="server">
+<body style="background-color:GrayText;">
+    <form id="form1" runat="server"> 
+    <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Home" style="background-color:Black; color:Red;" />
+<br /><br />
     <div>
-    <b>Welcome to Online library management!</b><br />
+    <b>Online library management</b><br />
 Login:<br /> <br />
 Username: <asp:TextBox runat="server"></asp:TextBox> <br />
 Password: <asp:TextBox runat="server"></asp:TextBox> <br />
