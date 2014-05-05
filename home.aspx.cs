@@ -15,4 +15,9 @@ public partial class home : System.Web.UI.Page
     {
         Response.Redirect("books.aspx");
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("home.aspx");
+    }
 }
